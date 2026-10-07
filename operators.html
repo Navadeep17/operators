@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Operators</title>
+</head>
+
+<body>
+
+<script>
+
+    // Arithmetic Operators
+    let x = 15;
+    let y = 4;
+
+    document.write("<h2>===== Arithmetic Operators =====</h2>");
+
+    document.write("Addition: ", x + y, "<br>");
+    document.write("Subtraction: ", x - y, "<br>");
+    document.write("Multiplication: ", x * y, "<br>");
+    document.write("Division: ", x / y, "<br>");
+    document.write("Remainder: ", x % y, "<br>");
+    document.write("Exponent: ", x ** y, "<br>");
+
+
+    // Relational Operators
+    let p = 25;
+    let q = "25";
+
+    document.write("<h2>===== Relational Operators =====</h2>");
+
+    document.write("Strict Equal: ", p === q, "<br>");
+    document.write("Equal: ", p == q, "<br>");
+    document.write("Not Equal: ", p != q, "<br>");
+    document.write("Less Than: ", p < 30, "<br>");
+    document.write("Greater Than: ", p > 20, "<br>");
+    document.write("Greater Than or Equal: ", p >= 25, "<br>");
+    document.write("Less Than or Equal: ", p <= 30, "<br>");
+
+
+    // Logical Operators
+    let age = 21;
+    let marks = 75;
+
+    document.write("<h2>===== Logical Operators =====</h2>");
+
+    document.write("AND Operator: ", age >= 18 && marks >= 50, "<br>");
+    document.write("OR Operator: ", age < 18 || marks >= 50, "<br>");
+    document.write("NOT Operator: ", !(age < 18), "<br>");
+
+
+    // Assignment Operators
+    let number = 10;
+
+    document.write("<h2>===== Assignment Operators =====</h2>");
+
+    document.write("Initial Value: ", number, "<br>");
+
+    number += 5;
+    document.write("After += 5: ", number, "<br>");
+
+    number -= 3;
+    document.write("After -= 3: ", number, "<br>");
+
+    number *= 2;
+    document.write("After *= 2: ", number, "<br>");
+
+    number /= 4;
+    document.write("After /= 4: ", number, "<br>");
+
+    number %= 3;
+    document.write("After %= 3: ", number, "<br>");
+
+    number **= 2;
+    document.write("After **= 2: ", number, "<br>");
+
+
+    // Bitwise Operators
+    let a = 12;
+    let b = 5;
+
+    document.write("<h2>===== Bitwise Operators =====</h2>");
+
+    document.write("AND (&): ", a & b, "<br>");
+    document.write("OR (|): ", a | b, "<br>");
+    document.write("XOR (^): ", a ^ b, "<br>");
+    document.write("Left Shift (<<): ", a << 1, "<br>");
+    document.write("Right Shift (>>): ", a >> 1, "<br>");
+
+</script>
+
+</body>
+</html>
+
+
